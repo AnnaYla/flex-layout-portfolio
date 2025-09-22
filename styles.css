@@ -1,0 +1,101 @@
+/* Modern reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body{
+    font-size: 20px;
+    border: 3px solid blue;
+}
+
+h1{
+    font: 1.4rem arial;
+    color:orchid;
+
+}
+
+h2{
+    font: 1.2rem arial;
+    color:magenta;
+}
+
+.main-nav ul{
+    display:flex;
+    justify-content: end;
+    flex-wrap: wrap;
+    gap: 8px;
+
+    border: 3px solid red;
+    list-style: none;
+    padding:5px;
+
+   
+    
+}
+
+nav a{
+     padding: 5px;
+     margin: 5px;
+     /* display:inline-block; */
+
+     font: bold 1em helvetica;
+      text-decoration: none;
+      color:rgb(16, 3, 19);
+      transition: transform 0.3s ease, color 0.3s ease;
+}
+
+a:hover{
+    color: goldenrod;
+    transform: scale(1.3);
+}
+
+/* hero section */
+
+.hero{
+    height: 100vh;
+    background-image: url(assets/white.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    border: 2px solid pink;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.portfolio{
+border: 2px solid tomato;
+display:flex;
+/* flex-direction: row; */
+}
+
+.bio{
+    flex:1.5;
+}
+.interest{
+    flex:1;
+}
+
+portfolio img{
+    flex: 1;
+}
+
+li{
+    list-style: none;
+}
+
+aside h2{
+    text-align: center;
+}
+
+
+
+@media (min-width < 600px) {
+
+}
