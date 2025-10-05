@@ -5,14 +5,23 @@
   box-sizing: border-box;
 }
 
+.hero-pic{
+    width: 250px;
+    border-radius: 50%;
+}
+
+/* therme royal purple */
+
 body{
     font-size: 20px;
     border: 3px solid blue;
+
+    background-color: #A7AAE1;
 }
 
 h1{
     font: 1.4rem arial;
-    color:orchid;
+    color: #222831;
 
 }
 
@@ -53,21 +62,7 @@ a:hover{
 
 /* hero section */
 
-.hero{
-    height: 100vh;
-    background-image: url(assets/white.jpeg);
-    background-size: cover;
-    background-repeat: no-repeat;
 
-    border: 2px solid pink;
-
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
 
 .portfolio{
 border: 2px solid tomato;
